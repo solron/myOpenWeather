@@ -185,6 +185,9 @@
                             <constraint firstItem="b0b-bC-SMq" firstAttribute="leading" secondItem="yAl-X7-178" secondAttribute="trailing" constant="8" id="nd1-ix-mfL"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tempLbl" destination="q2K-MM-bKx" id="LYq-jS-ewl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

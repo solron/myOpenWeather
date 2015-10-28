@@ -1,0 +1,13 @@
+Open Weather Api Key: d6a9fbf1d4dac82bb6f7a80625b0054b
+
+
+Sunrise Icon creator: Edward Boatman, https://thenounproject.com/edward/
+Sunset Icon creator: Adam Whitcroft, https://thenounproject.com/adamwhitcroft/
+Globe: Simon Child, https://thenounproject.com/Simon%20Child/
+
+
+http://api.openweathermap.org/data/2.5/weather?q=Kvernaland&appid=d6a9fbf1d4dac82bb6f7a80625b0054b
+
+http://api.openweathermap.org/data/2.5/weather?q=Kvernaland,uk&appid=d6a9fbf1d4dac82bb6f7a80625b0054b
+
+let poke = Pokemon(name: name, pokedexID: pokeID)
