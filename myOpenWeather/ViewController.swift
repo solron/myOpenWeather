@@ -11,8 +11,13 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var tempLbl: UILabel!
+    @IBOutlet weak var sunriseLbl: UILabel!
+    @IBOutlet weak var sunsetLbl: UILabel!
+    @IBOutlet weak var humidityLbl: UILabel!
+    @IBOutlet weak var windSpeedLbl: UILabel!
+    @IBOutlet weak var weatherIcon: UIImageView!
     
-    var myWeather = MyWeather()
+    var myWeather = MyWeather(city: "Kvernaland")
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +29,11 @@ class ViewController: UIViewController {
     
     func updateUI() {
         tempLbl.text = myWeather.temperature
-        print(myWeather.temperature)
+        humidityLbl.text = myWeather.humidity
+        windSpeedLbl.text = myWeather.wind
+        sunriseLbl.text = myWeather.sunrise
+        sunsetLbl.text = myWeather.sunset
+        weatherIcon.image = UIImage(named: myWeather.iconImage)
     }
 
 }

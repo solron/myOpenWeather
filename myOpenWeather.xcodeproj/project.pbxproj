@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		548ED9EAF13002A53BE70629 /* Pods_myOpenWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D01F0C5FF6BD3763C3AD8EF /* Pods_myOpenWeather.framework */; };
+		E32F12D71BE18C600071AB0D /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32F12D61BE18C600071AB0D /* Extentions.swift */; };
 		E34098241BDED15000105619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34098231BDED15000105619 /* AppDelegate.swift */; };
 		E34098261BDED15000105619 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34098251BDED15000105619 /* ViewController.swift */; };
 		E34098291BDED15000105619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34098271BDED15000105619 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		3CDE62251090B851108DB544 /* Pods-myOpenWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myOpenWeather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myOpenWeather/Pods-myOpenWeather.debug.xcconfig"; sourceTree = "<group>"; };
 		5D01F0C5FF6BD3763C3AD8EF /* Pods_myOpenWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myOpenWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6E3D633E4E80139B3B73AA /* Pods-myOpenWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myOpenWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-myOpenWeather/Pods-myOpenWeather.release.xcconfig"; sourceTree = "<group>"; };
+		E32F12D61BE18C600071AB0D /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		E34098201BDED14F00105619 /* myOpenWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myOpenWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E34098231BDED15000105619 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E34098251BDED15000105619 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				E340982F1BDED15000105619 /* Info.plist */,
 				E359963F1BE01DE300087F32 /* Constants.swift */,
 				E35996411BE01F6E00087F32 /* MyWeather.swift */,
+				E32F12D61BE18C600071AB0D /* Extentions.swift */,
 			);
 			path = myOpenWeather;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			files = (
 				E35996421BE01F6E00087F32 /* MyWeather.swift in Sources */,
 				E34098261BDED15000105619 /* ViewController.swift in Sources */,
+				E32F12D71BE18C600071AB0D /* Extentions.swift in Sources */,
 				E34098241BDED15000105619 /* AppDelegate.swift in Sources */,
 				E35996401BE01DE300087F32 /* Constants.swift in Sources */,
 			);
